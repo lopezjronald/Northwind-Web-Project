@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2e110886-bc5e-41b6-9139-0446322087e0": {
+      "ProjectGuid": "2e110886-bc5e-41b6-9139-0446322087e0",
+      "DisplayName": "Northwind.Common.EntityModels.Sqlite",
+      "ColorIndex": 0
+    },
+    "99a9117f-ad19-4f3f-a20a-510c06e691fa": {
+      "ProjectGuid": "99a9117f-ad19-4f3f-a20a-510c06e691fa",
+      "DisplayName": "Northwind.Common.DataContext.Sqlite",
+      "ColorIndex": 1
+    },
+    "2f7da396-0eff-4027-8c50-be410b2f079b": {
+      "ProjectGuid": "2f7da396-0eff-4027-8c50-be410b2f079b",
+      "DisplayName": "Northwind.Common.DataContext.Sqlite",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

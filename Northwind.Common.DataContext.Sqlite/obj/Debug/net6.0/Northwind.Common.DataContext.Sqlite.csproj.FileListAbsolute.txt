@@ -1,0 +1,15 @@
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\Northwind.Common.DataContext.Sqlite.deps.json
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\Northwind.Common.DataContext.Sqlite.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\ref\Northwind.Common.DataContext.Sqlite.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\Northwind.Common.DataContext.Sqlite.pdb
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\Northwind.Common.EntityModels.Sqlite.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\bin\Debug\net6.0\Northwind.Common.EntityModels.Sqlite.pdb
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.csproj.AssemblyReference.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.AssemblyInfoInputs.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.AssemblyInfo.cs
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.csproj.CoreCompileInputs.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.csproj.CopyComplete
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\ref\Northwind.Common.DataContext.Sqlite.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common.DataContext.Sqlite\obj\Debug\net6.0\Northwind.Common.DataContext.Sqlite.pdb
