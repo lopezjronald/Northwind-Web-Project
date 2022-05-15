@@ -1,10 +1,13 @@
-﻿namespace Northwind.Web
+﻿using Packt.Shared; // AddNorthwindContext extension method
+
+namespace Northwind.Web
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddNorthWindContext();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
