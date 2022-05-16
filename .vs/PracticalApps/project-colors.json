@@ -15,7 +15,12 @@
       "ProjectGuid": "2f7da396-0eff-4027-8c50-be410b2f079b",
       "DisplayName": "Northwind.Common.DataContext.Sqlite",
       "ColorIndex": 2
+    },
+    "953dc3df-1dfc-41e3-bc51-efccb1fe9b9e": {
+      "ProjectGuid": "953dc3df-1dfc-41e3-bc51-efccb1fe9b9e",
+      "DisplayName": "Northwind.Web",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
