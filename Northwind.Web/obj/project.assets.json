@@ -3172,6 +3172,22 @@
         "runtime": {
           "bin/placeholder/Northwind.Common.EntityModels.Sqlite.dll": {}
         }
+      },
+      "Northwind.Razor.Employees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Northwind.Common.DataContext.Sqlite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Razor.Employees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -9636,12 +9652,18 @@
       "type": "project",
       "path": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj",
       "msbuildProject": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj"
+    },
+    "Northwind.Razor.Employees/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Razor.Employees/Northwind.Razor.Employees.csproj",
+      "msbuildProject": "../Northwind.Razor.Employees/Northwind.Razor.Employees.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.4",
       "Northwind.Common.DataContext.Sqlite >= 1.0.0",
+      "Northwind.Razor.Employees >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.0"
     ]
   },
@@ -9679,6 +9701,9 @@
           "projectReferences": {
             "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
               "projectPath": "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+            },
+            "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj": {
+              "projectPath": "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj"
             }
           }
         }

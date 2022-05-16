@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.4",
           "Northwind.Common.DataContext.Sqlite": "1.0.0",
+          "Northwind.Razor.Employees": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.0"
         },
         "runtime": {
@@ -2236,6 +2237,14 @@
         "runtime": {
           "Northwind.Common.EntityModels.Sqlite.dll": {}
         }
+      },
+      "Northwind.Razor.Employees/1.0.0": {
+        "dependencies": {
+          "Northwind.Common.DataContext.Sqlite": "1.0.0"
+        },
+        "runtime": {
+          "Northwind.Razor.Employees.dll": {}
+        }
       }
     }
   },
@@ -3469,6 +3478,11 @@
       "sha512": ""
     },
     "Northwind.Common.EntityModels.Sqlite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Northwind.Razor.Employees/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
