@@ -20,7 +20,12 @@
       "ProjectGuid": "953dc3df-1dfc-41e3-bc51-efccb1fe9b9e",
       "DisplayName": "Northwind.Web",
       "ColorIndex": 3
+    },
+    "15cc59de-a5b5-4f64-a624-e66e6aafc8ec": {
+      "ProjectGuid": "15cc59de-a5b5-4f64-a624-e66e6aafc8ec",
+      "DisplayName": "Northwind.Razor.Employees",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
