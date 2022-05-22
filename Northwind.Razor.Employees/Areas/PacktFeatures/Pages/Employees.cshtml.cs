@@ -17,6 +17,6 @@ public class EmployeesPageModel : PageModel
     public void OnGet()
     {
         ViewData["Title"] = "Northwind B2B - Employees";
-        Employees = db.Employees.OrderBy(e => e.LastName).ThenBy(e => e.FirstName).ToArray();
+        Employees = db.Employees.OrderBy(e => e.Country).ThenBy(e => e.LastName).ThenBy(e => e.FirstName).ToArray();
     }
 }
