@@ -9,7 +9,7 @@ public class Thing
     [Required]
     public string? Color { get; set; }
 
-    /*  [EmailAddress]*/
+    [EmailAddress]
     public string? Email { get; set; }
 }
 
