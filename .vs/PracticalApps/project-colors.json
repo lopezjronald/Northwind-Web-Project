@@ -40,7 +40,32 @@
       "ProjectGuid": "6e8f0556-d42c-4f15-a9e3-992636257b9f",
       "DisplayName": "Northwind.WebApi",
       "ColorIndex": 6
+    },
+    "d94bbfc7-9ea3-4d02-be2c-5e9897e9b532": {
+      "ProjectGuid": "d94bbfc7-9ea3-4d02-be2c-5e9897e9b532",
+      "DisplayName": "Northwind.Common",
+      "ColorIndex": 7
+    },
+    "3f635cbd-1b53-484e-b44a-686a3f9f171a": {
+      "ProjectGuid": "3f635cbd-1b53-484e-b44a-686a3f9f171a",
+      "DisplayName": "Minimal.WebApi",
+      "ColorIndex": 8
+    },
+    "97a3143f-541c-4177-b565-37ad355ad0b7": {
+      "ProjectGuid": "97a3143f-541c-4177-b565-37ad355ad0b7",
+      "DisplayName": "Northwind.BlazorServer",
+      "ColorIndex": 9
+    },
+    "123662c8-1c44-4e42-bef8-19c204b74fef": {
+      "ProjectGuid": "123662c8-1c44-4e42-bef8-19c204b74fef",
+      "DisplayName": "Northwind.BlazorWasm.Server",
+      "ColorIndex": 10
+    },
+    "c663952e-3e3e-4f6f-8186-6b1a4c547350": {
+      "ProjectGuid": "c663952e-3e3e-4f6f-8186-6b1a4c547350",
+      "DisplayName": "Northwind.BlazorWasm.Client",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 12
 }

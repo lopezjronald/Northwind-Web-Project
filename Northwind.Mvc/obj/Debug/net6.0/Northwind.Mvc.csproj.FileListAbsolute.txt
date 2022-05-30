@@ -92,3 +92,5 @@ D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\No
 D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\Northwind.Common.EntityModels.Sqlite.dll
 D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\Northwind.Common.DataContext.Sqlite.pdb
 D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\Northwind.Common.EntityModels.Sqlite.pdb
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\Northwind.Common.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Mvc\bin\Debug\net6.0\Northwind.Common.pdb

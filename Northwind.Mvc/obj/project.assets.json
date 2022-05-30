@@ -984,6 +984,16 @@
           }
         }
       },
+      "Northwind.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        }
+      },
       "Northwind.Common.DataContext.Sqlite/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2771,6 +2781,11 @@
         "version.txt"
       ]
     },
+    "Northwind.Common/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Common/Northwind.Common.csproj",
+      "msbuildProject": "../Northwind.Common/Northwind.Common.csproj"
+    },
     "Northwind.Common.DataContext.Sqlite/1.0.0": {
       "type": "project",
       "path": "../Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj",
@@ -2789,6 +2804,7 @@
       "Microsoft.AspNetCore.Identity.UI >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "Northwind.Common >= 1.0.0",
       "Northwind.Common.DataContext.Sqlite >= 1.0.0"
     ]
   },
@@ -2826,6 +2842,9 @@
           "projectReferences": {
             "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
               "projectPath": "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+            },
+            "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+              "projectPath": "D:\\code\\c#\\VS-Code\\PracticalApps\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
             }
           }
         }

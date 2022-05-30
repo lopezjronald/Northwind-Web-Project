@@ -1,17 +1,19 @@
-using Microsoft.AspNetCore.Mvc.Formatters;
-using Northwind.WebApi.Repositories;
-using Packt.Shared;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Packt.Shared; // AddNorthwindContext extension method
+using Northwind.WebApi.Repositories;
 using Swashbuckle.AspNetCore.SwaggerUI; // SubmitMethod
 using Microsoft.AspNetCore.HttpLogging; // HttpLoggingFields
 
 using static System.Console;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("https://localhost:5002/");
+
 // Add services to the container.
-builder.Services.AddNorthWindContext();
+
+builder.Services.AddCors();
 
 builder.Services.AddControllers(options =>
 {
@@ -21,27 +23,23 @@ builder.Services.AddControllers(options =>
         OutputFormatter? mediaFormatter = formatter as OutputFormatter;
         if (mediaFormatter == null)
         {
-            WriteLine($"    {formatter.GetType().Name}");
+            WriteLine($"  {formatter.GetType().Name}");
         }
-        else
+        else // OutputFormatter class has SupportedMediaTypes
         {
-            WriteLine("    {0}, Media types: {1}",
-                arg0: mediaFormatter.GetType().Name,
-                arg1: string.Join(", ", mediaFormatter.SupportedMediaTypes));
+            WriteLine("  {0}, Media types: {1}",
+              arg0: mediaFormatter.GetType().Name,
+              arg1: string.Join(", ",
+                mediaFormatter.SupportedMediaTypes));
         }
     }
-}).AddXmlDataContractSerializerFormatters().AddXmlSerializerFormatters();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+})
+.AddXmlDataContractSerializerFormatters()
+.AddXmlSerializerFormatters();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new()
-    {
-        Title = "Northwind Service API",
-        Version = "v1"
-    });
+    c.SwaggerDoc("v1", new() { Title = "Northwind Service API", Version = "v1" });
 });
 
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
@@ -55,27 +53,30 @@ builder.Services.AddHttpLogging(options =>
 
 var app = builder.Build();
 
-builder.WebHost.UseUrls("https://localhost:5002/");
-
 // Configure the HTTP request pipeline.
+
+app.UseCors(configurePolicy: options =>
+{
+    options.WithMethods("GET", "POST", "PUT", "DELETE");
+    options.WithOrigins(
+      "https://localhost:5001" // allow requests from the MVC client
+    );
+});
 
 app.UseHttpLogging();
 
-if (app.Environment.IsDevelopment())
+if (builder.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Northwind Service API Version 1");
-        c.SupportedSubmitMethods(new[]
-        {
-            SubmitMethod.Get,
-            SubmitMethod.Post,
-            SubmitMethod.Put,
-            SubmitMethod.Delete
-        });
-    });
+        c.SwaggerEndpoint("/swagger/v1/swagger.json",
+          "Northwind Service API Version 1");
 
+        c.SupportedSubmitMethods(new[] {
+      SubmitMethod.Get, SubmitMethod.Post,
+      SubmitMethod.Put, SubmitMethod.Delete });
+    });
 }
 
 app.UseHttpsRedirection();

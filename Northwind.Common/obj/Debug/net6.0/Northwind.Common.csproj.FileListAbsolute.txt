@@ -1,0 +1,12 @@
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\bin\Debug\net6.0\Northwind.Common.deps.json
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\bin\Debug\net6.0\Northwind.Common.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\bin\Debug\net6.0\ref\Northwind.Common.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\bin\Debug\net6.0\Northwind.Common.pdb
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.csproj.AssemblyReference.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.AssemblyInfoInputs.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.AssemblyInfo.cs
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.csproj.CoreCompileInputs.cache
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\ref\Northwind.Common.dll
+D:\code\c#\VS-Code\PracticalApps\PracticalApps\Northwind.Common\obj\Debug\net6.0\Northwind.Common.pdb

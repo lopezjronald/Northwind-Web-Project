@@ -24,8 +24,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 // if you are using SQL server
-/*string sqlServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");
-builder.Services.AddNorthWindContext(sqlServerConnection);*/
+string sqlServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");
+builder.Services.AddNorthWindContext(sqlServerConnection);
 
 // using SQL default ..\Northwind.db
 builder.Services.AddNorthWindContext();
